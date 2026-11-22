@@ -1,0 +1,19 @@
+name: QuestPlugin
+version: '${project.version}'
+main: fr.quests.QuestPlugin
+api-version: '26.2'
+description: Système de quêtes (quotidiennes, hebdomadaires, ville) avec panel admin
+commands:
+  quete:
+    description: Ouvre le menu des quêtes
+    aliases: [quetes, quête, quêtes]
+    permission: quetes.use
+  queteadmin:
+    description: Ouvre le panel administrateur des quêtes
+    aliases: [questadmin]
+    permission: quetes.admin
+permissions:
+  quetes.use:
+    default: true
+  quetes.admin:
+    default: op

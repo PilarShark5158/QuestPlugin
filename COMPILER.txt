@@ -1,0 +1,8 @@
+Option A (Windows/Linux/Mac, en local) :
+  1. Installer Java 25 (Temurin) et Maven
+  2. Dans ce dossier : mvn package
+  3. Récupérer target/QuestPlugin.jar et le mettre dans plugins/
+
+Option B (sans rien installer) :
+  1. Créer un dépôt GitHub et y envoyer tout ce dossier
+  2. Onglet Actions -> build -> télécharger l'artefact "QuestPlugin" (contient le .jar)

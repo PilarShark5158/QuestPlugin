@@ -1,0 +1,3 @@
+# Fuseau horaire utilisé pour la réinitialisation des quêtes quotidiennes (minuit)
+# et hebdomadaires (lundi minuit).
+timezone: Europe/Paris
