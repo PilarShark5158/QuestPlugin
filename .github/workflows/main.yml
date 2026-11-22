@@ -11,11 +11,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '25'
-      - name: Organiser les fichiers
-        run: |
-          mkdir -p src/main/java/fr/quests src/main/resources
-          mv *.java src/main/java/fr/quests/
-          mv plugin.yml config.yml src/main/resources/
       - run: mvn -B package
       - uses: actions/upload-artifact@v4
         with:
